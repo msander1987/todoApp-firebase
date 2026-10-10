@@ -1,0 +1,48 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    padding: 30px;
+    max-width: 900px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+}
+#task-form{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+}
+#task-form input, select{
+    height: 20px;
+    border: 1px solid #ccc;
+}
+button{
+    border: none;
+    background-color: #698bfe;
+    padding: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.btn-delete{
+    background-color: #ff4b4b;
+}
+.btn-complete{
+    background-color: #ffc64b;
+}
+#task-list li{
+    background-color: #eeeeee;
+    border-radius: 10px;
+    padding: 7px 10px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 7px;
+    margin-top: 5px;
+    align-items: center;
+}

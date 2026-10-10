@@ -29,7 +29,7 @@ const db = getFirestore(app);
 // Reference to the tasks collection in Firestore
 const tasksCollection = collection(db, "tasks");
 
-// DOM Elements
+// Elements from the html DOM
 const taskForm = document.getElementById("task-form");
 const taskTitleInput = document.getElementById("task-title");
 const taskPrioritySelect = document.getElementById("task-priority");
