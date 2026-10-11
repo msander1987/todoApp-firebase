@@ -13,7 +13,7 @@ This app is built using HTML, CSS, and plain JavaScript. It lets you create, vie
 
 My main goal was to practice using asynchronous JavaScript (`async/await`) and learn how real-time databases work.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/PDIBib6fANY)
 
 # Cloud Database
 
